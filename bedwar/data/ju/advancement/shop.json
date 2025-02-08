@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "click_interaction": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"ShopInteraction\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ju:store/open_store/open_shop"
+    }
+  }
+  

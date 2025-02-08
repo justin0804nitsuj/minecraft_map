@@ -1,0 +1,3 @@
+clear @s minecraft:iron_helmet[unbreakable={show_in_tooltip:false},custom_name='[{"text":"鐵製套裝","italic":false}]',lore=['[{"text":"","italic":false},{"text":"12個金","color":"gold"}]','[{"text":"","italic":false},{"text":"無限耐久","color":"aqua"}]']]
+item replace block -40 1 3 container.19 with minecraft:iron_helmet[unbreakable={show_in_tooltip:false},custom_name='[{"text":"鐵製套裝","italic":false}]',lore=['[{"text":"","italic":false},{"text":"12個金","color":"gold"}]','[{"text":"","italic":false},{"text":"無限耐久","color":"aqua"}]']]
+tellraw @s {"text": "你已購買過鐵製套裝!","color": "red"}

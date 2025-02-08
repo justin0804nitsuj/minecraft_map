@@ -1,0 +1,7 @@
+clear @s minecraft:iron_helmet[unbreakable={show_in_tooltip:false},custom_name='[{"text":"鐵製套裝","italic":false}]',lore=['[{"text":"","italic":false},{"text":"12個金","color":"gold"}]','[{"text":"","italic":false},{"text":"無限耐久","color":"aqua"}]']]
+clear @s gold_ingot 12
+item replace block -40 1 3 container.19 with minecraft:iron_helmet[unbreakable={show_in_tooltip:false},custom_name='[{"text":"鐵製套裝","italic":false}]',lore=['[{"text":"","italic":false},{"text":"12個金","color":"gold"}]','[{"text":"","italic":false},{"text":"無限耐久","color":"aqua"}]']]
+item replace entity @s armor.head with minecraft:iron_helmet[unbreakable={show_in_tooltip:false},lore=['[{"text":"","italic":false},{"text":"無限耐久","color":"aqua"}]']]
+item replace entity @s armor.chest with minecraft:iron_chestplate[unbreakable={show_in_tooltip:false},lore=['[{"text":"","italic":false},{"text":"無限耐久","color":"aqua"}]']]
+item replace entity @s armor.legs with minecraft:iron_leggings[unbreakable={show_in_tooltip:false},lore=['[{"text":"","italic":false},{"text":"無限耐久","color":"aqua"}]']]
+item replace entity @s armor.feet with minecraft:iron_boots[unbreakable={show_in_tooltip:false},lore=['[{"text":"","italic":false},{"text":"無限耐久","color":"aqua"}]']]

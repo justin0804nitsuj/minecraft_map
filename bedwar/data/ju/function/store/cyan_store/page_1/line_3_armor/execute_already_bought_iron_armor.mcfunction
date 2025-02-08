@@ -1,0 +1,2 @@
+execute as @s if items entity @s armor.head minecraft:iron_helmet[unbreakable={show_in_tooltip:false},lore=['[{"text":"","italic":false},{"text":"無限耐久","color":"aqua"}]']] run function ju:store/cyan_store/page_1/line_3_armor/cyan_iron_helmet_already_bought
+execute as @s unless items entity @s armor.head minecraft:iron_helmet[unbreakable={show_in_tooltip:false},lore=['[{"text":"","italic":false},{"text":"無限耐久","color":"aqua"}]']] run function ju:store/cyan_store/page_1/line_3_armor/cyan_iron_helmet_bought

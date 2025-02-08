@@ -1,0 +1,7 @@
+{
+    "values": [
+        "ju:store/cyan_store/execute_cyan_buying",
+        "ju:store/red_store/execute_red_buying",
+        "ju:generator/execute_ingot_count"
+        ]
+}
